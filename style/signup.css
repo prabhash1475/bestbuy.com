@@ -1,0 +1,55 @@
+.signav {
+  background-color: #0146be;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 10px;
+  color: aliceblue;
+  margin: -10px -10px 0px -10px;
+}
+.sigimg {
+  margin-left: 70px;
+}
+.sigp {
+  margin-left: 900px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.contaner {
+  width: 400px;
+  margin: auto;
+  /* border: #0146be 1px solid; */
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+input {
+  display: block;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 350px;
+}
+body {
+  background-color: #f0f2f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder {
+  color: black;
+}
+input:last-child {
+  background-color: #0146be;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+}
+.business {
+  font-size: 12px;
+}
+span {
+  text-decoration: underline;
+  color: #0146be;
+}
