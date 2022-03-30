@@ -1,0 +1,11 @@
+.contaner {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: auto;
+  justify-content: end;
+  gap: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
