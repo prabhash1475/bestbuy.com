@@ -1,11 +1,269 @@
 .contaner {
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 500px, 300px;
   grid-template-rows: auto;
-  justify-content: end;
+  /* justify-content: end; */
   gap: 20px;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+  width: 600px;
+  margin: auto;
+  padding: 20px;
 }
+span {
+  color: #0146be;
+}
+
 img {
   width: 200px;
   height: 200px;
+}
+body {
+  background-color: #f0f2f4;
+}
+.box {
+  display: flex;
+  gap: 40px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+}
+button {
+  background-color: red;
+  border: none;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 7px;
+}
+.checkout_part {
+  border: 1px sold black;
+  background-color: #ffffff;
+  /* width: 400px; */
+  /* height: 400px; */
+  padding: 50px;
+  margin-right: 100px;
+}
+.parent {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+.ceckout-btn {
+  background-color: yellow;
+  width: 300px;
+  margin: auto;
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+  padding: 20px;
+}
+.ceckout-btn2 {
+  background-color: #1d252c;
+  width: 300px;
+  padding: 10px;
+}
+
+/* nav-bar */
+
+.navbar {
+  display: grid;
+  grid-gap: 48px;
+
+  margin: -10px;
+  grid-template-columns: 68px 86px 10fr 7fr 75px;
+  grid-template-rows: 1fr;
+  background-color: #0146be;
+  color: aliceblue;
+  height: 80px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  height: 45px;
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.search {
+  height: 70%;
+  width: 600px;
+  margin-top: 7px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 40px;
+  font-size: large;
+  display: flex;
+}
+.mag {
+  margin-top: 30px;
+  margin-left: -40px;
+  color: #0146be;
+}
+.fa-bars {
+  margin-top: 25px;
+  margin-top: 35px;
+}
+.menu {
+  display: flex;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.last {
+  display: flex;
+  justify-content: right;
+}
+.aiea {
+  display: flex;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.tag {
+  margin-top: 25px;
+  margin-top: 35px;
+}
+.cart {
+  display: flex;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.cart-log {
+  margin-top: 25px;
+  margin-top: 35px;
+}
+/* navbar end */
+
+.below-navbar {
+  /* height: 30px; */
+  display: flex;
+  background-color: #0146be;
+  color: aliceblue;
+  justify-content: space-around;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 11px;
+  padding: 10px;
+}
+.below-navbar > div {
+  margin: auto;
+}
+select {
+  background-color: #0146be;
+  color: aliceblue;
+  border: none;
+}
+.sin {
+  width: 300px;
+  padding: 20px;
+  background-color: #0146be;
+  color: aliceblue;
+}
+/* ------------belo nav bar ends */
+.lower {
+  width: 100%;
+  height: 1000px;
+  /* border: #0146be 1px solid; */
+}
+
+/* footer */
+/* footer part */
+.footer {
+  /* background-color: #f0f2f4; */
+  background-color: #cacacb;
+}
+.footer-first {
+  margin-top: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-first p {
+  color: #0146be;
+}
+.footer-icon {
+  margin-left: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+}
+.footer-second-row {
+  display: flex;
+}
+.first {
+  /* border: #0146be solid; */
+  height: 500px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+  padding: 12px;
+}
+.first p {
+  color: #0146be;
+}
+.second {
+  padding: 10px;
+  height: 500px;
+  width: 30%;
+  /* border: #0146be solid; */
+  background-color: white;
+}
+.second p {
+  color: #0146be;
+}
+.foot-sercc {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.foot-sercc > input {
+  width: 65%;
+  height: 25px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  /* margin-left: 20px; */
+}
+.foot-sercc > button {
+  background-color: #0146be;
+  border: none;
+  height: 30px;
+  margin-left: 20px;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+}
+.app {
+  display: flex;
+  margin-bottom: 30px;
+}
+.app img {
+  width: 70px;
+  height: 70px;
+}
+
+.foot-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: #0146be;
+  margin-bottom: 20px;
+}
+.blue {
+  color: #0146be;
+  margin-left: 10px;
+}
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+  gap: 40px;
+}
+.last-link {
+  display: flex;
+  gap: 25px;
 }
