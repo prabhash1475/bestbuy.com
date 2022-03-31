@@ -1,70 +1,42 @@
-.contaner {
-  display: grid;
-  grid-template-columns: 500px, 300px;
-  grid-template-rows: auto;
-  /* justify-content: end; */
-  gap: 20px;
-  background-color: #ffffff;
-  /* border: 1px solid red; */
-  width: 600px;
-  margin: auto;
+.payment {
+  border: 1px solid purple;
   padding: 20px;
+  height: auto;
+  width: 400px;
+  margin: auto;
+  background-color: rgb(204, 241, 242);
+  margin-top: 20px;
 }
-span {
-  color: #0146be;
+input {
+  display: block;
+  width: 350px;
+  margin: 25px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid powderblue;
+  font-weight: bolder;
+  font-size: large;
+}
+form > input:nth-child(6) {
+  background-color: rgb(106, 228, 106);
+  color: aliceblue;
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 5px;
+}
+.card_type {
+  width: 350px;
+  margin: 25px;
+  /* height: 60px; */
+  background-color: bisque;
+  justify-content: center;
+  padding: 10px;
+  color: black;
 }
 
-img {
-  width: 200px;
-  height: 200px;
-}
-body {
-  background-color: #f0f2f4;
-}
-.box {
-  display: flex;
-  gap: 40px;
-  /* border: 1px solid red; */
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 10px;
-}
-button {
-  background-color: red;
-  border: none;
-  padding: 8px;
-  color: #ffffff;
-  border-radius: 7px;
-}
-.checkout_part {
-  border: 1px sold black;
-  background-color: #ffffff;
-  /* width: 400px; */
-  /* height: 400px; */
-  padding: 50px;
-  margin-right: 100px;
-}
-.parent {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-}
-h2 {
-  text-align: center;
-}
-.ceckout-btn {
-  background-color: rgb(36, 189, 63);
-  width: 300px;
-  margin: auto;
-  font-size: large;
-  font-weight: bolder;
-  color: black !important;
-  padding: 20px;
-}
-.ceckout-btn2 {
-  background-color: #1d252c;
-  width: 300px;
-  padding: 10px;
-}
+/* -----------------------payment end----------- */
 
 /* nav-bar */
 
@@ -101,7 +73,7 @@ a {
 }
 .mag {
   margin-top: 30px;
-  margin-left: -40px;
+  margin-left: -60px;
   color: #0146be;
 }
 .fa-bars {
@@ -163,11 +135,6 @@ select {
   color: aliceblue;
 }
 /* ------------belo nav bar ends */
-.lower {
-  width: 100%;
-  height: 1000px;
-  /* border: #0146be 1px solid; */
-}
 
 /* footer */
 /* footer part */
