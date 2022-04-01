@@ -4,6 +4,7 @@ console.log(registeredUser);
 document.querySelector("form").addEventListener("submit", loginfun);
 
 function loginfun() {
+  event.preventDefault();
   enterEmail = document.querySelector("#email").value;
   enterPass = document.querySelector("#pass").value;
 
@@ -12,6 +13,7 @@ function loginfun() {
       registeredUser[i].email == enterEmail &&
       registeredUser[i].pass == enterPass
     ) {
+      window.location.href = "index.html";
       alert("login Success");
       break;
     } else {

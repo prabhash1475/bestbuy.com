@@ -107,6 +107,15 @@
         <i class="fa-solid fa-credit-card fa-3x"></i>
         <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
       </div>
+      <!-- popup -->
+        <div class="popup">
+            <img src="https://pngimage.net/wp-content/uploads/2018/06/right-tick-mark-png-5.png" alt="">
+            <h1>Order Succesfuly Placed</h1>
+            <H3>Thank you for Shopping with us</H3>
+            <button><a href="/index.html"> Continue Shopping</a></button>
+        </div>
+
+      <!-- popup -->
     </div>
 
     <!-- --------------payment---end -------------->
@@ -284,7 +293,13 @@
       document.querySelector("#cvv").value == "999" &&
       document.querySelector("#otp").value == "123"
     ) {
-      alert("Order Succesfuly Placed");
+    //   alert("Order Succesfuly Placed");
+    //   popup/////
+        document.querySelector("form").addEventListener("submit", popupfun);
+        function popupfun(){
+            document.querySelector(".popup").classList.add("open-popup")
+        }
+    // popup//////
     } else {
       alert("Incerect Detail");
     }

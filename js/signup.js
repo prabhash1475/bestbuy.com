@@ -13,4 +13,6 @@ function signupfun() {
   userdata.push(userobj);
   //   console.log(userdata);
   localStorage.setItem("userCred", JSON.stringify(userdata));
+
+  window.location.href = "login.html";
 }
